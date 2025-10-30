@@ -1,0 +1,131 @@
+h1 {
+    color: rgb(103, 172, 168);
+    border: 5px solid rgb(58, 156, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    width:100%;
+    margin-left:1px;
+    text-align: center;
+    text-shadow: 20px 0px 3px aqua;
+}
+
+h2 {
+   color: rgb(42, 117, 114);
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+
+}
+ ul{ 
+    color: rgb(34, 247, 247);
+    border: 3px solid rgb(58, 156, 151);
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ h3{
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+ }
+ p {
+    color: rgb(60, 136, 111);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    text-align: center;
+ }
+ .mercedes{
+    background-color: rgb(255, 255, 255);
+ }
+ #amg{
+    color: rgb(3, 114, 114);
+    text-decoration: none;
+ }
+
+  #amg:hover {
+    color: rgb(40, 216, 240);
+  }
+
+  .sarah {
+   height: 200px;
+   width: 200px;
+   background-image: url(images/mercedesf1.webp);
+   background-color: aquamarine;
+   background-repeat: no-repeat;
+   background-size: 200px 300px;
+   color: aliceblue;
+   /*background-attachment: fixed;*/
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ a:hover {
+   color: rgb(99, 187, 187);
+ }
+
+ li:first-child{
+   color: rgb(114, 199, 195); 
+ }
+ li:last-child{
+   color: rgb(80, 167, 138);
+ }
+ img{
+   display:block;
+   margin-left:auto;
+   margin-right: auto;
+ }
+
+ li:nth-child(even){
+   color: rgb(56, 192, 202);
+ }
+
+ li:nth-child(odd){
+   background-color: rgb(255, 255, 255);
+ }
+
+ p::before{
+content: "\1F3CE";
+ }
+
+p::selection{
+   color: rgb(40, 216, 240);
+   background-color: rgb(3, 114, 114);
+}
+
+*{
+   margin: 0px;
+   padding: 0px;
+   border: aqua;
+   box-sizing: border-box;
+}
+
+*{
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(132, 255, 255);
+   padding-top: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin: 10px 20px;
+   
+}
+div{
+   width: 500px;
+   height: 50px;
+   background-color: azure;
+   border: 1px solid aquamarine;
+   box-shadow: 1px 2px 1px red;
+   display:
+   inline-block;
+   text-align: center;
+
+}
+#none{
+   display: none;
+}
+
+
+@media(orientation: landscape){
+h1 {
+   color: rgb(57, 100, 86);
+}
+}
+
